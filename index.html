@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: red;
+            background-color: black;
+        }
+
+        .main {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: absolute;
+            /* height: 100vh; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 10px solid rgba(255, 255, 255, 0.623);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        img {
+            height: 400px;
+            width: 400px;
+        }
+
+        .procurado {
+            font-size: 80px;
+        }
+
+        .noturno {
+            color: yellow;
+            font-size: 40px;
+        }
+
+        .nome {
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            margin: 10px;
+        }
+
+        p {
+            color: white;
+            font-size: 15px;
+        }
+
+        .container-footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="procurado">PROCURADO</h1><br>
+            <h3 class="noturno"><< NOTURNO >></h3>
+            <h4 class="nome">🐵 João Gabriel Glaiver 🐵</h4>
+            <img src="./aaa.jpg" alt="Glavier">
+
+            <div class="container-footer">
+                <p>A polícia está à procura de Glaiver, de 20 anos suspeito de envolvimento em diversos crimes na região.</p><br>
+                <p>Ele foi visto pela última vez no centro da cidade e pode estar se escondendo em bairros próximos.</p><br>
+                <p>Qualquer informação sobre seu paradeiro deve ser comunicada às autoridades pelo número 190.</p><br>
+                <p>A colaboração da população é essencial para a captura do suspeito.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
